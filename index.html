@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./task4.jpg"> 
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h1 class="text-center mb-5">To-Do List</h1>
+      <form id="to-do-form">
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="task-input"
+            placeholder="Add a task"
+          />
+        </div>
+        <button type="submit" class="btn btn-primary">Add Task</button>
+      </form>
+      <h2 class="text-center mt-5">Incomplete Tasks</h2>
+      <ul id="incomplete-list" class="list-group mt-3"></ul>
+      <h2 class="text-center mt-5">Completed Tasks</h2>
+      <ul id="completed-list" class="list-group mt-3"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-image: url("./task4.jpg");
+      background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #incomplete-list li,
+  #completed-list li {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .completed label {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+ 
+ 
